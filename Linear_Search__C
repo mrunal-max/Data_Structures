@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main() {
+int a[5]={22,55,66,1,5},i,k,flag=0;
+k=6;
+for(i=0;i<=5;i++)
+{
+    if(a[i]==k)
+    flag=1;
+}
+if (flag==1)
+printf("found");
+else
+printf("not found");
+}
